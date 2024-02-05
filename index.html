@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alike Angular:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+      <!-------------menubar----------------->
+    <div class="index1">
+      <div class="navbar">
+        <button class="logo">
+          <div class="doctory">Doctory</div>
+          <img
+            class="logo-removebg-preview-1-icon"
+            alt=""
+            src="./public/logoremovebgpreview-1@2x.png"
+          />
+        </button>
+        <div class="menubtnsection">
+          <div class="contact">Contact</div>
+          <div class="about-us">About Us</div>
+          <div class="services">Services</div>
+          <div class="features">Features</div>
+          <div class="home">Home</div>
+          <button class="signupbtn">
+            <div class="sign-up">sign up</div>
+          </button>
+        </div>
+      </div>
+        <!---------banner section-------------->
+      <div class="bannersection">
+        <div class="bannerimage">
+          <div class="imagearea"></div>
+        </div>
+        <div class="formareasection">
+          <input class="formbg" type="text" />
+
+          <div class="form">
+            <div class="selectcategory">
+              <input 
+              id="doctor_type"
+              class="lblinput"
+              name="category"
+              placeholder="Select Category"
+              />
+            </div>
+            <div class="selectlocation">
+              <input
+              id="doctor_area"
+               class="lbllocation"
+               name="location"
+               placeholder="Select Location"
+              />
+            </div>
+            <button id="search_btn" class="search-btn">
+              <div class="lblsearchdoctors">Search Doctors</div>
+              <img class="search-image-icon"alt=""src="./public/search-image@2x.png"/>
+            </button>
+          </div>
+          <div class="bannerdescription">
+            what if one website could help you find just the doctors you’re
+            looking for? Healthgrades can help you find a doctor based on
+            confidence not chance
+          </div>
+          <b class="bannertitle">
+            <p class="finding-a-doctor-you-can-build">
+              <span class="finding-a-doctor"
+                >Finding a doctor you can build long relationship which is good <br>for health
+              </span>
+            </p>
+          </b>
+        </div>
+        <img
+          class="bannerimage-icon"
+          alt=""
+          src="./public/bannerimage@2x.png"
+        />
+      </div>
+      <!--------doctorsearchsection--------------->
+    <div id="search__section" class="sevicesection">
+      <div class="lblservicetitle">4 easy steps to get your solution</div>
+      <div class="serachsection">
+        <div class="search">
+          <img class="searchicon" alt="" src="./public/searchicon@2x.png" />
+        </div>
+        <div class="titledescription">
+          <p class="search-doctor">search doctor</p>
+          <p class="blank-line">&nbsp;</p>
+          <p class="finding-a-doctor-you-can-build">
+            Find your doctor easily with minimum effort. we’ve kept everything organised for you
+          </p>
+        </div>
+      </div>
+      <div class="profilesection">
+        <div class="titledescription1">
+          <p class="search-doctor">Check doctor profile</p>
+          <p class="blank-line">&nbsp;</p>
+          <p class="finding-a-doctor-you-can-build">
+            Go through the profile of the doctor and select the doctor who best suits for you
+          </p>
+        </div>
+        <div class="profile">
+          <img class="profileicon" alt="" src="./public/profileicon@2x.png" />
+        </div>
+      </div>
+      <div class="appointmentsection">
+        <div class="appointment">
+          <img class="appointmenticon"alt=""src="./public/appointmenticon@2x.png"/>
+        </div>
+        <div class="titledescription2">
+          <p class="get-appointment">Get Appointment</p>
+          <p class="blank-line">&nbsp;</p>
+          <p class="finding-a-doctor-you-can-build">
+            Ask for appointment of the doctor quickly with almost a single click.We take care of the rest.
+          </p>
+        </div>
+      </div>
+      <div class="solutionsection">
+        <div class="solution">
+          <img class="solutionicon"alt=""src="./public/solutionicon@2x.png"/>
+        </div>
+        <div class="titledescription3">
+          <p class="get-appointment"> Get your solution</p>
+          <p class="blank-line">&nbsp;</p>
+          <p class="finding-a-doctor-you-can-build">
+            Do take the service based on your appointment. Get back to good health
+          </p>
+        </div>
+      </div>
+     </div>
+               
+          <!------------description--------------->
+      <div class="descriptionsection">
+        <img class="imagearea-icon" alt="" src="./public/imagearea@2x.png" />
+
+        <div class="textarea">
+          <div class="lbldesc">
+            <p class="finding-a-doctor-you-can-build">
+              With our top doctors,We are able to provide
+              best medical services above average we have
+              highly experienced doctors. We are always ensure best medical Treatment for your health
+            </p>
+          </div>
+          <button class="btnspecialties">
+            <div class="lblspecialities">see specialties</div>
+            <img class="arrow-icon" alt="" src="./public/arrow@2x.png" />
+          </button>
+          <div class="lbldescription">
+            <p class="finding-a-doctor-you-can-build">
+              Discovering a doctor you can assemble long-terms <br>relationship with is useful for <br>your wellbeing.
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+  <script>
+    $(document).ready(function(){
+      $("#search_btn").click(function(){
+        var doctor_type=$("#doctor_type").val();
+        var doctor_area=$("#doctor_area").val();
+            $.post("webservice1.php",{search: doctor_type,area: doctor_area }, function(response){
+               $("#search__section").html(response); 
+            });
+      });
+    });
+  
+  </script>
+</html>
+
+

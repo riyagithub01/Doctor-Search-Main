@@ -1,0 +1,553 @@
+.doctory {
+  position: absolute;
+  top: 40px;
+  left: 186px;
+  font-size: var(--font-size-26xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-midnightblue);
+  text-align: left;
+  display: inline-block;
+  width: 195px;
+  height: 73px;
+}
+.logo-removebg-preview-1-icon {
+  position: absolute;
+  top: 16px;
+  left: 82px;
+  width: 123px;
+  height: 88px;
+  object-fit: cover;
+}
+.logo {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-aliceblue);
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  width: 393px;
+  height: 141px;
+}
+.about-us,
+.contact,
+.services {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.contact {
+  top: 60px;
+  left: 575px;
+  width: 110px;
+  height: 32px;
+  opacity: 0.9;
+}
+.about-us,
+.services {
+  top: 61px;
+}
+.about-us {
+  left: 435px;
+  color: var(--color-darkslategray-200);
+  width: 119px;
+  height: 49px;
+}
+.services {
+  left: 304px;
+  width: 110px;
+  height: 43px;
+  opacity: 0.9;
+}
+.features {
+  top: 62px;
+  left: 163px;
+  color: var(--color-darkslategray-400);
+  width: 120px;
+}
+.features,
+.home,
+.sign-up {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.home {
+  top: 63px;
+  left: 51px;
+  background: linear-gradient(#000, #000), #2b2e30;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 91px;
+  height: 29px;
+  opacity: 0.9;
+}
+.sign-up {
+  top: 14px;
+  left: 26px;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 151px;
+  height: 48px;
+}
+.signupbtn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkslateblue-200);
+  position: absolute;
+  top: 46px;
+  left: 715px;
+  border-radius: var(--br-8xs);
+  width: 138px;
+  height: 62px;
+}
+.imagearea,
+.menubtnsection,
+.navbar {
+  position: absolute;
+  top: -4px;
+  left: 620px;
+  background-color: var(--color-aliceblue);
+  width: 900px;
+  height: 178px;
+}
+.imagearea,
+.navbar {
+  top: 0;
+  left: 0;
+  width: 1550px;
+}
+.imagearea {
+  left: -20px;
+  width: 211px;
+  height: 240px;
+}
+.bannerimage,
+.formbg {
+  position: absolute;
+  top: 0;
+  left: 920px;
+  width: 583px;
+  height: 769px;
+}
+.formbg {
+  border: 0;
+  background-color: var(--color-white);
+  top: 488px;
+  left: 73px;
+  border-radius: var(--br-8xs);
+  width: 819px;
+  height: 131px;
+}
+.lblinput {
+  position: absolute;
+  top: 18px;
+  left: 14px;
+  font-size: var(--font-size-4xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline;
+  width: 188px;
+  height: 35px;
+  background-color: var(--color-whitesmoke);
+  border:none;
+}
+.selectcategory {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke);
+  position: absolute;
+  top: -5px;
+  left: 31px;
+  border-radius: var(--br-8xs);
+  width: 215px;
+  height: 68px;
+}
+.lbllocation {
+  position: absolute;
+  top: 18px;
+  left: 14px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 188px;
+  height: 35px;
+  background-color: var(--color-whitesmoke);
+  border:none;
+}
+.selectlocation {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-whitesmoke);
+  position: absolute;
+  top: -6px;
+  left: 270px;
+  border-radius: var(--br-8xs);
+  width: 214px;
+  height: 67px;
+}
+.lblsearchdoctors {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 283px;
+  height: 64px;
+}
+.search-image-icon {
+  position: absolute;
+  top: 21px;
+  left: 220px;
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+.search-btn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-midnightblue);
+  position: absolute;
+  top: -13px;
+  left: 521px;
+  border-radius: var(--br-8xs);
+  width: 282px;
+  height: 81px;
+}
+.form {
+  position: absolute;
+  top: 521px;
+  left: 63px;
+  width: 837px;
+  height: 87px;
+}
+.bannerdescription {
+  position: absolute;
+  top: 270px;
+  left: 96px;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-dimgray);
+  text-align: left;
+  display: inline-block;
+  width: 690px;
+  height: 181px;
+}
+.finding-a-doctor {
+  color: var(--color-darkslategray-100);
+}
+
+.finding-a-doctor-you-can-build {
+  margin: 0;
+}
+
+.bannertitle {
+  position: absolute;
+  top: 71px;
+  left: 97px;
+  font-size: 41px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  text-align: left;
+  width: 700px;
+  height: 219px;
+}
+.formareasection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 920px;
+  height: 769px;
+}
+.bannerimage-icon {
+  position: absolute;
+  top: 110px;
+  left: 860px;
+  width: 626px;
+  height: 531px;
+  object-fit: cover;
+}
+.bannersection {
+  position: absolute;
+  top: 178px;
+  left: 0;
+  background-color: var(--color-aliceblue);
+  width: 1550px;
+  height: 769px;
+}
+.lblservicetitle {
+  position: absolute;
+  top: 133px;
+  left: 375px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 818px;
+  height: 88px;
+}
+.searchicon {
+  position: absolute;
+  top: 18px;
+  left: 22px;
+  width: 73px;
+  height: 67px;
+  object-fit: cover;
+}
+.search {
+  position: absolute;
+  top: 9px;
+  left: 140px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightblue);
+  width: 116px;
+  height: 104px;
+}
+.search-doctor1 {
+  font-weight: 600;
+}
+.search-doctor {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  font-weight: 600;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-11xl);
+}
+.titledescription {
+  position: absolute;
+  top: 134px;
+  left: 54px;
+  display: inline-block;
+  width: 321px;
+  height: 186px;
+}
+.serachsection {
+  position: relative;
+  float:left;
+  top: 274px;
+  left: 0;
+  width: 375px;
+  height: 365px;
+  font-family: var(--font-alike-angular);
+}
+.titledescription1 {
+  position: absolute;
+  top: 128px;
+  left: 31px;
+  display: inline-block;
+  width: 314px;
+  height: 168px;
+}
+.profileicon {
+  position: absolute;
+  top: 16px;
+  left: 19px;
+  width: 73px;
+  height: 73px;
+  object-fit: cover;
+}
+.profile {
+  position: absolute;
+  top: 9px;
+  left: 140px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-honeydew);
+  width: 116px;
+  height: 104px;
+}
+.profilesection {
+  position: absolute;
+  top: 276px;
+  left: 375px;
+  width: 341px;
+  height: 363px;
+  font-family: var(--font-alike-angular);
+}
+.appointmenticon {
+  position: absolute;
+  top: 20px;
+  left: 21px;
+  width: 73px;
+  height: 77px;
+  object-fit: cover;
+}
+.appointment {
+  position: absolute;
+  top: 9px;
+  left: 140px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-peachpuff);
+  width: 116px;
+  height: 104px;
+}
+.get-appointment {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+}
+.titledescription2 {
+  position: absolute;
+  top: 134px;
+  left: 35px;
+  display: inline-block;
+  width: 328px;
+  height: 192px;
+}
+.appointmentsection,
+.solutionicon {
+  position: absolute;
+  top: 276px;
+  left: 720px;
+  width: 374px;
+  height: 365px;
+  font-family: var(--font-alike-angular);
+}
+.solutionicon {
+  top: 12px;
+  left: 17px;
+  width: 81px;
+  height: 80px;
+  object-fit: cover;
+}
+.solution {
+  position: absolute;
+  top: 9px;
+  left: 140px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslategray-300);
+  width: 116px;
+  height: 104px;
+}
+.titledescription3 {
+  position: absolute;
+  top: 134px;
+  left: 24px;
+  display: inline-block;
+  width: 332px;
+  height: 167px;
+}
+.sevicesection,
+.solutionsection {
+  position: absolute;
+  top: 276px;
+  left: 1098px;
+  width: 362px;
+  height: 365px;
+  font-family: var(--font-alike-angular);
+}
+.sevicesection {
+  top: 947px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1550px;
+  height: 724px;
+  text-align: center;
+  font-size: var(--font-size-4xl);
+}
+.imagearea-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 819px;
+  height: 708px;
+  object-fit: cover;
+}
+.lbldesc,
+.lblspecialities {
+  position: absolute;
+  top: 256px;
+  left: 54px;
+  display: inline-block;
+  width: 613px;
+  height: 179px;
+}
+.lblspecialities {
+  top: 15px;
+  left: 20px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 236px;
+  height: 51px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 15px;
+  left: 212px;
+  width: 37px;
+  height: 37px;
+  object-fit: cover;
+}
+.btnspecialties {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-darkslateblue-100);
+  position: absolute;
+  top: 493px;
+  left: 54px;
+  border-radius: var(--br-8xs);
+  width: 270px;
+  height: 74px;
+}
+.lbldescription {
+  position: absolute;
+  top: 23px;
+  left: 54px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  display: inline-block;
+  width: 662px;
+  height: 261px;
+}
+.descriptionsection,
+.textarea {
+  position: absolute;
+  top: 0;
+  left: 819px;
+  background-color: var(--color-white);
+  width: 684px;
+  height: 708px;
+}
+.descriptionsection {
+  top: 1671px;
+  left: 0;
+  width: 1550px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-gray);
+  font-family: var(--font-roboto);
+}
+.index1 {
+  position: relative;
+  width: 100%;
+  height: 2379px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
